@@ -9,7 +9,7 @@ represents which array it came from, and the index of the location of that
 array, respectively.
 
 ###Running Time:###
-If K = the sum of each array size (K<sub>0</sub> + K<sub>1</sub> + K<sub>2</sub> + ... + K<sub>N</sub>)
+If K = K<sub>0</sub> + K<sub>1</sub> + K<sub>2</sub> + ... + K<sub>N</sub> (the sum of each array size)
 Then the time complexity of this algorithm is N * K * log(K).
 
 ###Steps:###
