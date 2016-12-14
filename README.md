@@ -1,5 +1,4 @@
 #Class ArraySort#
-__________________
 Author: Cody Patterson
 
 ###Problem:###
@@ -10,7 +9,7 @@ represents which array it came from, and the index of the location of that
 array, respectively.
 
 ###Running Time:###
-If K = the sum of each array size (Ksub0 + Ksub1 + Ksub2 + ... + KsubN)
+If K = the sum of each array size (K<sub>0</sub> + K<sub>1</sub> + K<sub>2</sub> + ... + K<sub>N</sub>)
 Then the time complexity of this algorithm is N * K * log(K).
 
 ###Steps:###
