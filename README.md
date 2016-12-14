@@ -10,10 +10,10 @@ array, respectively.
 
 ###Running Time:###
 If K = K<sub>0</sub> + K<sub>1</sub> + K<sub>2</sub> + ... + K<sub>N</sub> (the sum of each array size)
-Then the time complexity of this algorithm is N * K * log(K).
+Then the time complexity of this algorithm is K * log(N).
 
 ###Steps:###
-1. Create a result array of size: N * K
+1. Create a result array of size K
 2. Create a heap with N nodes, each node holding the first value of each array
 3. From the min heap, place the value of the root into the result array
 4. Replace the root in the min heap with the next element in the array from
