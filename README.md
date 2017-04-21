@@ -1,18 +1,18 @@
-#Class ArraySort#
+#Class ArraySort
 Author: Cody Patterson
 
-###Problem:###
+###Problem:
 Given N sorted arrays of integers, returns one array with all the elements,
 sorted. For this, we use a minimum heap with number of nodes equal to the
 number of arrays we were given. Each node holds the value, an index that
 represents which array it came from, and the index of the location of that
 array, respectively.
 
-###Running Time:###
+###Running Time:
 If K = K<sub>0</sub> + K<sub>1</sub> + K<sub>2</sub> + ... + K<sub>N</sub> (the sum of each array size)
 Then the time complexity of this algorithm is K * log(N).
 
-###Steps:###
+###Steps:
 1. Create a result array of size K
 2. Create a heap with N nodes, each node holding the first value of each array
 3. From the min heap, place the value of the root into the result array
